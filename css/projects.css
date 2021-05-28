@@ -1,4 +1,44 @@
 .projects{
-   font-size: 3rem; 
-   padding: 2rem;
+    padding: 2rem;  
+}
+.projects>*{
+    flex: 1;
+    margin-bottom: 2rem;
+}
+.flex-container-projects{
+    display: flex;    
+}
+.flex-container-projects>div{
+    width: 100%; 
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    font-size: 1.5 rem;
+}
+.project-image>img{
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+}
+.project-content{
+    padding-left: 1rem;
+    font-size: 2rem;
+}
+@media(max-width:768px) {
+.projects h1{
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+.flex-container-projects{
+    flex-wrap:wrap;
+    text-align: center;
+    justify-content: center;
+}
+.flex-container-projects>div{
+    flex-direction:row;    
+}
+.projects-content{
+    order: 2;
+}
 }

@@ -22,7 +22,10 @@
     text-align:left;
 }
 .lang-prof{
-    padding-left:0.5rem;
+    padding-left:1rem;    
+}
+.lang-prof>p{
+    padding-left: 1rem;
 }
 .image>img{
     max-width: 100%;
@@ -49,4 +52,9 @@
 .about{
     text-align: center;
 }
+.lang-prof>p{
+    padding-left: 1rem;
+    text-align: left;
+}
+
 }

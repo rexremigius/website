@@ -12,7 +12,7 @@
   align-items: center;
 }
 #top{
-  display:none;
+  display:block;
   position:fixed;
   bottom:20px;
   z-index:99;

@@ -1,12 +1,15 @@
 .skills{
     padding: 2rem;
 }
+.skills>*{
+    flex: 1;   
+}
 .flex-container-skill{
     display: flex;    
 }
 .flex-container-skill>div{
     width:100%;
-    padding: 1rem;
+    padding: 0rem;
     font-size: 1.5rem;
      align-items: center;
     justify-content: center;
@@ -14,13 +17,19 @@
 }
 .skills-image>img{
     max-width: 100%;
-    height: auto;
+    height: auto;  
+    padding: 2rem;  
 }
+
 .dev-icons{
     list-style:none;
     text-align:center;
-    padding-top: 2rem;
-    
+    padding-top: 2rem;    
+}
+.values{
+    list-style:none;
+    text-align:center;
+    padding-top:1rem;   
 }
 .skill-icons{
     display: inline-block;
@@ -33,6 +42,10 @@
 }
 .skill-icons>p{
     font-size:1rem; 
+}
+.skillset-values{
+    margin-top: 0;
+    padding-top: 0;
 }
 .fab i{
     font-weight: 400;
@@ -58,37 +71,42 @@
 .fab .fa-python:before{
     content: "/f3e2";
 }
-.skills>*{
-    flex: 1;
-    margin-bottom: 30px;
-}
+
 @media (max-width:768px) {
 .skills h1{
     text-align: center;
-    margin-bottom: 0;
+    margin-bottom: 1rem;
 
 }
 .flex-container-skill{
-    flex-wrap:wrap;
+    flex-wrap:wrap-reverse;
     text-align: center;
-    justify-content: center;
+    
 }
 .flex-container-skill>div{
-    flex-direction:row;    
+    flex-direction:column;       
 }
 .skills-image{
     order: 2;
+}
+.skills{
+    flex-direction: row;
 }
 .dev-icons{
     display: block;
 }
 .skill>div{
-    display:column;
+    flex-direction:row;
 }
 .skill{
     font-size: 2rem;
+    max-height: auto; 
 }
 .skillset-icons>i{
     font-size: 4rem;
+}
+.skillset-values{
+    font-size: 1rem;
+    max-height: 100%;
 }
 }
