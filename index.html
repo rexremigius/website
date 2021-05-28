@@ -21,8 +21,8 @@
     <link rel="stylesheet"href="css/about.css">
     <link rel="stylesheet"href="css/social-media.css">
     <link rel="stylesheet"href="css/contact.css">
-    <!--<link rel="stylesheet"href="css/skills.css">
-    <link rel="stylesheet"href="css/project.css">-->
+    <link rel="stylesheet"href="css/skills.css">
+    <link rel="stylesheet"href="css/project.css">
     <link rel="stylesheet"href="css/footer.css">
     <link rel="stylesheet"href="css/greetings.css">
     
@@ -40,7 +40,7 @@
                 </label>
                 <label class="name" title="Name">REX REMIGIUS</label>      
                     <ul>    
-                      <li><a class="active" href="#about">About</a></li>
+                      <li><a href="#about">About</a></li>
                      <li><a href="#skills">Skills</a></li>
                      <li><a href="#projects">Projects</a></li>
                      <li><a href="#projects">Projects</a></li>
@@ -51,14 +51,14 @@
         </div>        
         <div class="greetings">
            <p class="greet-main"> Hello from Rex !</p>
-            <h3>A Tech Enthusiast who always wondered about gadegets and computers.</h3>
+            <h3>A Tech Enthusiast who always wondered about gadgets and computers.</h3>
             <h3>An Information Technology Engineer in making!😁</h3>
             <h3>Wanna see my Resume? Click Below</h3>
             <button type='button' class="resume" onclick.window.href="media/RexRemigius_Resume.pdf" >Resume</button>
         </div>    
        <div class="about" id="about">
            <h1><b>About</b></h1>
-                <div class="flex-container">
+                <div class="flex-container-about">
                     <div class="abt-me">
                         <div class="bio">                        
                         <p> I pursued my Bachelors in Information Technology (<b>B.Tech</b>) Engineering from <b>Sri Krishna College of Engineering and Technology</b>,Coimbatore.<br><br>I am 2019-2023 batch passed out student with a CGPA of 8.69</p></div>
@@ -67,10 +67,57 @@
                         </div>
                     </div>
                     <div class="image">
-                        <img src="media/pan.jpg" alt="center">
+                        <img src="media/undraw_about_me_wa29.svg" alt="About">
                     </div>
                 </div>
        </div>       
+      <div class="skills">
+          <h1><b>Skills</b></h1>
+          <div class="flex-container-skill">
+              <div class="skills-image">    
+                <img src="media/undraw_certificate_343v.svg" alt="Skills">            
+            </div>
+            <div class="skill">
+                 <div class="skillset">                        
+                        <p>I like to improve my skills very often.So I am continuing to learn various skills related to my domain.</p>
+                    <div class="skillset-icons">
+                        <ul class="dev-icons">
+                            <li class="skill-icons">
+                                <i class="fab fa-html5"></i>
+                                <p>HTML5</p>
+                            </li>
+                            <li class="skill-icons">
+                                <i class="fab fa-css3-alt"></i>
+                                <p>CSS3</p>
+                            </li>
+                            <li class="skill-icons">
+                                <i class="fab fa-java"></i>
+                                <p>Java</p>
+                            </li>
+                            <li class="skill-icons">
+                                <i class="fas fa-database"></i>
+                                <p>SQL DB</p>
+                            </li>
+                            <li class="skill-icons">
+                                <i class="fab fa-python"></i>
+                                <p>Python</p>
+                            </li>
+                            <li class="skill-icons">
+                                <i class="fab fa-android"></i>
+                                <p>Flutter</p>
+                            </li>
+                            <li class="skill-icons">
+                                <i class="fab fa-git-alt"></i>
+                                <p>Git</p>
+                            </li>
+                        </ul>
+                    </div>
+                 </div>
+            </div>          
+          </div>
+      </div>
+      <div clas="projects">
+            <p>Projects</p>
       </div>
         <div class="contact" id="contact">
     <h1><b>Contact</b></h1>
@@ -93,8 +140,7 @@
         <i class="fab fa-twitter"></i></a>
     <a class="icon-button whatsapp"href="https://api.whatsapp.com/send?phone=919943953030&text=Hello Rex! I'll like to chat to you"title="whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
 </div>
- 
- </div>
+</div> 
 </div>
 <div class="footer">
 <footer>
@@ -104,6 +150,7 @@
 <button id="top" title='Go to top' onclick="topFunction()">
     <span class="material-icons">&#xE5D8;</span>
 </button>
+</div>
 <script src="js/gototop.js"></script>
 <script src="js/drop.js"></script>
 </body>
