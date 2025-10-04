@@ -3,7 +3,7 @@
 
 a,
 abbr,
-acronym,
+acronym,  
 address,
 article,
 aside,
@@ -14383,5 +14383,113 @@ input[name="carousel"] {
   background-color: rgba(20, 28, 58, 0.08);
   color: #141c3a;
 }
+
+.project-grid .column {
+      margin-bottom: 1rem;
+    }
+    
+    .project-card {
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+    }
+    
+    .project-card:hover .project-image-container::after {
+      background: rgba(102, 126, 234, 0.1);
+    }
+    
+    .project-icon {
+      font-size: 3rem;
+      color: white;
+    }
+    
+    .project-content {
+      padding: 1.5rem;
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .project-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #363636;
+    }
+    
+    .project-description {
+      color: #4a4a4a;
+      margin-bottom: 1rem;
+      line-height: 1.6;
+      flex-grow: 1;
+    }
+    
+    .project-tech {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+      display: block;
+    }
+    
+    .tech-tag {
+      background: #f5f5f5;
+      padding: 0.25rem 0.75rem;
+      border-radius: 12px;
+      font-size: 0.85rem;
+      color: #141c3a;
+      font-weight: 500;
+    }
+    
+    .project-links {
+      display: block;
+      gap: 0.75rem;
+      margin-top: auto;
+
+    }
+    
+    .project-button {
+      flex: 1;
+      padding: 0.5rem 1rem;
+      border-radius: 6px;
+      text-align: center;
+      transition: all 0.3s ease;
+      font-weight: 500;
+      text-decoration: none;
+      display: inline-block;
+    }
+    
+    .btn-primary {
+      background: #667eea;
+      color: white;
+      border: 2px solid #667eea;
+    }
+    
+    .btn-primary:hover {
+      background: #5568d3;
+      border-color: #5568d3;
+      color: white;
+    }
+    
+    .btn-secondary {
+      background: transparent;
+      color: #667eea;
+      border: 2px solid #667eea;
+    }
+    
+    .btn-secondary:hover {
+      background: #667eea;
+      color: white;
+    }
 
 /*# sourceMappingURL=main.css.map */
