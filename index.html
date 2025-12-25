@@ -21,7 +21,7 @@
 <body>
   <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
     <div class="container">
-      <div class="navbar-brand"><a class="navbar-item" href="/">
+      <div class="navbar-brand"><a class="navbar-item" href="#about">
           <i class="fak fa-mf-logo has-text-primary fa-4x">
             <h1>REX REMIGIUS</h1>
           </i>
@@ -78,12 +78,9 @@
         <div class="column is-three-fifths">
           <h1 class="subtitle is-spaced is-size-3-desktop is-size-4-mobile">Hi, I’m Rex. Thank you for visiting my
             portfolio.</h1>
-          <h2 class="subtitle is-size-5-desktop has-text-weight-normal">My journey as a Software Engineer began two
-            years ago. I actively develop and maintain kernels for cutting-edge AI accelerators. I also have
-            experience working with compilers, a crucial component in optimizing algorithms and enhancing hardware
-            performance, whether it involves refining code generation or fine-tuning compiler optimizations. Currently I
-            am pursuing my Master's degree in the United States 🇺🇸</h2>
-        </div>
+          <h2 class="subtitle is-size-5-desktop has-text-weight-normal"><p>I am currently pursuing my Master’s in Computer Science from Khoury College of Computer Science at Northeastern University.</p><p>I worked as a Software Engineer, designing and developing kernels for AI accelerators and optimizing compilers.</p><p>My journey as a Software Engineer began two years ago. I develop and maintain kernels for cutting-edge AI accelerators. I also have experience working with compilers, a crucial component in optimizing algorithms and enhancing hardware performance, whether it involves refining code generation or fine-tuning compiler optimizations.</h2>
+</p>
+</div>
       </div>
     </div>
   </section>
@@ -213,9 +210,9 @@
   </section>
   <section class="section projects is-medium is-white has-text-centered" id="projects">
     <div class="container is-narrow">
-      <h1 class="subtitle is-size-1 is-spaced">My Projects</h1>
+      <h1 class="title is-size-1 is-spaced">Projects</h1>
       <h2 class="subtitle is-size-4-desktop">Here are some of my recent projects spanning compiler development, machine
-        learning, and UI/UX design.</h2>
+        learning, and System level development.</h2>
 
       <div class="project-grid">
         <div class="columns is-multiline is-centered">
@@ -251,9 +248,9 @@
           <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
             <div class="project-card">
               <div class="project-content">
-                <h3 class="project-title">Heart Disease Risk Prediction Model</h3>
+                <h3 class="project-title">Heart Disease Prediction with Ensemble Methods</h3>
                 <p class="project-description">
-                  Built an optimized logistic regression model on UCI Heart Disease dataset achieving 90% accuracy.
+                  Advanced Heart Disease Prediction with Ensemble Methods UCI Heart Disease Dataset achieving 90% accuracy.
                   Implemented advanced feature engineering, hyperparameter tuning, and comprehensive performance
                   validation.
                 </p>
@@ -264,7 +261,7 @@
                   <span class="tech-tag">Scikit-learn</span>
                 </div>
                 <div class="project-links">
-                  <a href="https://github.com/rexremigius/Machine-Learning"
+                  <a href="https://github.com/rexremigius/heart-disease-prediction-with-ensemble-methods"
                     class="button is-primary is-centered is-outlined is-rounded has-text-weight-normal" target="_blank">
                     <i class="fab fa-github"></i> View Code
                   </a>
@@ -273,59 +270,64 @@
             </div>
           </div>
 
-          <!-- Project 3: BYTES Food Ordering App -->
+          <!-- Project 3: Checkpoint and restart System -->
           <div class="column is-12-mobile is-half-tablet is-one-third-desktop">
             <div class="project-card">
               <div class="project-content">
-                <h3 class="project-title">BYTES: Food Ordering App</h3>
+                <h3 class="project-title">Transparent Checkpoint and Restart System</h3>
                 <p class="project-description">
-                  Created a comprehensive food ordering application prototype with geofence technology. Developed
-                  extensive UI/UX design covering all design principles and edge cases in Adobe XD.
+                  Built a checkpoint-restart system (Docker/Kubernetes/CRIU technology) that captures and restores full process state across address spaces. Solved address space conflicts, call frame consistency, and register restoration via assembly-level debugging.
                 </p>
                 <div class="project-tech is-centered">
-                  <span class="tech-tag">Adobe XD</span>
-                  <span class="tech-tag">Figma</span>
-                  <span class="tech-tag">Dart</span>
-                  <span class="tech-tag">UI/UX</span>
+                  <span class="tech-tag">C</span>
+                  <span class="tech-tag">Posix Signals</span>
+                  <span class="tech-tag">Linux Syscalls</span>
+                  <span class="tech-tag">GDB</span>
                 </div>
                 <div class="project-links is-centered">
-                  <a href="https://github.com/rexremigius/BYTES"
+                  <a href="https://github.com/rexremigius/checkpoint-and-restart"
                     class="button is-primary is-centered is-outlined is-rounded has-text-weight-normal" target="_blank">
-                    <i class="fab fa-github is-centered"></i> View Design
+                    <i class="fab fa-github is-centered"></i> View Code
                   </a>
                 </div>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
-
     </div>
   </section>
-  <section class="section call-to-action is-primary has-text-centered" id="contact">
-    <div class="container is-narrow">
-      <div class="box">
-        <div class="columns level">
-          <div class="column level-item">
-            <h1 class="title is-size-1 is-spaced">Say Hello</h1>
-          </div>
-          <div class="column level-item">
-            <p>Interested to know me more?</p>
-            <p>You can find my Resume with a click. </p>
-            <div class="column level-item is-centered is-spaced is-size-3-desktop is-size-4-mobile"><a
-                class="button is-success is-outlined is-rounded is-medium has-text-weight-normal"
-                href="https://drive.google.com/file/d/1-LvDruZJlOAJwvrMACJDjxCDNPCDMspg/view?usp=drive_link"><span
-                  class="icon"><i class="is-centered fa-regular fa-hand-horns"></i></span>Click here</span></a></div>
-          </div>
-          <div class="column level-item">
-            <p>Do drop some project ideas for me through mail!</p>
-            <!-- <div class="column level-item is-centered is-spaced is-size-3-desktop is-size-4-mobile"><a class="button is-success is-outlined is-rounded is-medium has-text-weight-normal" href="https://drive.google.com/file/d/19wKi9_XUNDT94A4NF4Hruj1FARKMfd6T/view?usp=drive_link"><span class="icon"><i class="is-centered fa-regular fa-hand-horns"></i></span>Click here</span></a></div> -->
-          </div>
+  <section class="section call-to-action is-medium is-primary has-text-centered" id="contact">
+      <div class="container is-narrow">
+        <div class="box">
+          <h1 class="title is-size-1 is-spaced">Say Hello</h1>
+          
+          <div class="columns is-multiline">
+            <div class="column is-full">
+              <p class="is-size-5">Interested to know me more?</p>
+              <p class="mb-5">You can find my Resume below.</p>
+            </div>
+            
+            <div class="column is-full">
+              <iframe src="resume/Rex Remigius S J - v4.13.pdf" 
+                      width="75%" 
+                      height="650px" 
+                      style="border: none; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+              </iframe>
+            </div>
+            <div class="column is-full">
+                <p class="is-size-5">
+                  If you think my profile interests you, please do
+                </p>
+            </div>
+            <div class="column is-full">
+                <a class="button is-primary is-centered is-outlined is-rounded has-text-weight-normal" href="mailto:rexremigius1@gmail.com">
+                  Get In Touch
+                </a>
+            </div>
         </div>
       </div>
-    </div>
   </section>
   <footer class="section is-primary is-small has-text-centered">
     <div class="container is-narrow-footer"><a class="logo has-text-white" href="/">
