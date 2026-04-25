@@ -14,6 +14,8 @@ the website.I hosted it in a domain which I got cheap or for free (I don't remem
 
 `version-2.1` - Added the project section which is due for a long time and I have updated the image, favicon and my resume.
 
+`version-3` -  Added the experience and education section which is due for a long time and I have updated the resume and corrected mobile version.
+
 # Live Website
 
 You can find the live website [Rex Remigius S J | Software Engineer](https://rexremigius.github.io/website/).
@@ -26,5 +28,6 @@ You can find the live website [Rex Remigius S J | Software Engineer](https://rex
 | `version-1`  | Total revamp of the initial website|
 | `version-2`  | Minor feature change|
 | `version-2.1`| Added project section,favicon,resume and image|
+| `version-3`  | Added experience and education section,resume and mobile version|
 
 *I try to add version logs for all the commits which comes in future too*
